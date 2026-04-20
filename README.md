@@ -1,19 +1,10 @@
 # DDSF-Net: A Dual-Domain Collaborative Spatial–Frequency Network for Low-Light Image Enhancement
 
-This repository presents **DDSF-Net**, a dual-domain collaborative spatial–frequency network designed for low-light image enhancement.
-
----
-
-## Overview
-
-Low-light image enhancement remains challenging due to insufficient illumination, noise contamination, and detail degradation.  
-To address these issues, DDSF-Net jointly exploits spatial-domain and frequency-domain representations to enhance illumination, suppress noise, and recover fine details.
-
 ---
 
 ## Network Architecture
 
-The overall architecture of DDSF-Net is shown below.
+The overall architecture of DDSF-Net is illustrated below.
 
 <p align="center">
   <img src="Figures/framework_cadf.png" width="85%">
@@ -23,7 +14,7 @@ The overall architecture of DDSF-Net is shown below.
 
 ## Key Modules
 
-The structures of the proposed modules are illustrated below.
+The structures of the proposed modules are shown below.
 
 <p align="center">
   <img src="Figures/wramfefb.png" width="85%">
@@ -44,3 +35,10 @@ Qualitative comparison results on representative low-light scenes.
 </p>
 
 ---
+
+## Training
+
+To train DDSF-Net, run:
+
+```bash
+python train.py
