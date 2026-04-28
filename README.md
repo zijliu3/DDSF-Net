@@ -108,23 +108,6 @@ Representative qualitative comparison results are shown below. The results demon
 
 ---
 
-## 🔹 Citation
-
-If you find this work useful for your research, please consider citing our paper once it becomes available.
-
-```bibtex
-@article{liu2026ddsfnet,
-  title={DDSF-Net: A Dual-Domain Collaborative Spatial-Frequency Network for Low-Light Image Enhancement},
-  author={Liu, Zijun and Hu, Peng and Chang, Renkai and Ma, Junjie},
-  journal={The Visual Computer},
-  year={2026}
-}
-```
-
-The official citation information will be updated after publication.
-
----
-
 ## 🔹 Contact
 
 If you have any questions, please feel free to contact us.
