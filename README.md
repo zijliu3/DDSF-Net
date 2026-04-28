@@ -63,3 +63,20 @@ To train **DDSF-Net**, run:
 
 ```bash
 python train.py
+
+---
+## 🔹 Visual Results
+
+Representative qualitative comparison results are shown below.
+
+<p align="center">
+  <img src="Figures/result.jpg" alt="Visual comparison results on LOL-v1 and LOL-v2-Real" width="90%">
+  <br/>
+  <em>Fig. 3: Visual comparison results on LOL-v1 and LOL-v2-Real.</em>
+</p>
+
+<p align="center">
+  <img src="Figures/result2.png" alt="Visual comparison results on unpaired low-light datasets" width="90%">
+  <br/>
+  <em>Fig. 4: Visual comparison results on unpaired low-light datasets.</em>
+</p>
