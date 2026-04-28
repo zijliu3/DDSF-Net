@@ -1,7 +1,10 @@
 # DDSF-Net: A Dual-Domain Collaborative Spatial–Frequency Network for Low-Light Image Enhancement
 
-> This repository provides a partial implementation of our work **"DDSF-Net: A Dual-Domain Collaborative Spatial–Frequency Network for Low-Light Image Enhancement"**, intended for academic communication and preliminary understanding.  
-> To protect the originality of our work and ensure compliance with publication requirements, the **complete codebase and pretrained models will be released after the paper is officially accepted**.  
+> This repository is directly associated with our manuscript **"DDSF-Net: A Dual-Domain Collaborative Spatial–Frequency Network for Low-Light Image Enhancement"**, which has been submitted to *The Visual Computer*.  
+> At this stage, this repository provides a partial implementation and project documentation for academic communication and preliminary understanding.  
+> To protect the originality of our work and ensure compliance with publication requirements, the **complete codebase will be released after the paper is officially accepted**.  
+> Pretrained models will be released after publication.  
+> If you find this work useful, please cite the corresponding paper once it becomes available.  
 > We appreciate your understanding and support.
 
 ---
@@ -15,7 +18,7 @@ DDSF-Net adopts an encoder–decoder architecture and integrates Fourier-domain 
 <p align="center">
   <img src="Figures/framework_cadf.png" alt="DDSF-Net Framework" width="85%">
   <br/>
-  <em>Fig. 1: Overall architecture of DDSF-Net. The network consists of Fourier Enhancement Fusion Block (FEFB), Wavelet Reconstruction Attention Block (WRAB), and Context-Aware Detail Fusion (CADF) modules.</em>
+  <em>Fig. 1: Overall architecture of DDSF-Net.</em>
 </p>
 
 ---
@@ -63,11 +66,33 @@ To train **DDSF-Net**, run:
 
 ```bash
 python train.py
+```
+
+Please modify the dataset paths and training settings in the corresponding script before training.
 
 ---
+
+## 🔹 Model Testing
+
+To test **DDSF-Net**, run:
+
+```bash
+python test.py
+```
+
+The enhanced images will be saved in the specified output folder.
+
+---
+
+## 🔹 Pretrained Models
+
+Pretrained models will be released after publication.
+
+---
+
 ## 🔹 Visual Results
 
-Representative qualitative comparison results are shown below.
+Representative qualitative comparison results are shown below. The results demonstrate the effectiveness of DDSF-Net in brightness enhancement, color restoration, and detail preservation under different low-light conditions.
 
 <p align="center">
   <img src="Figures/result.jpg" alt="Visual comparison results on LOL-v1 and LOL-v2-Real" width="90%">
@@ -80,3 +105,34 @@ Representative qualitative comparison results are shown below.
   <br/>
   <em>Fig. 4: Visual comparison results on unpaired low-light datasets.</em>
 </p>
+
+---
+
+## 🔹 Citation
+
+If you find this work useful for your research, please consider citing our paper once it becomes available.
+
+```bibtex
+@article{liu2026ddsfnet,
+  title={DDSF-Net: A Dual-Domain Collaborative Spatial-Frequency Network for Low-Light Image Enhancement},
+  author={Liu, Zijun and Hu, Peng and Chang, Renkai and Ma, Junjie},
+  journal={The Visual Computer},
+  year={2026}
+}
+```
+
+The official citation information will be updated after publication.
+
+---
+
+## 🔹 Contact
+
+If you have any questions, please feel free to contact us.
+
+- Zijun Liu: zijliu3@gmail.com
+
+---
+
+## 🔹 Acknowledgement
+
+This repository is built for academic research and communication. We thank the authors of the public datasets and open-source projects used in this work.
